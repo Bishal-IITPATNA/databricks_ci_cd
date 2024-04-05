@@ -13,6 +13,4 @@ jobs:
     with:
       databricks_code_path: "Pipelines/prod/my_great_pipeline"
       service_code_file: "src/code/pipeline.py"
-    secrets:
-      DATABRICKS_HOST_URL: "adb-3129059325504714.14.azuredatabricks.net"
-      DATABRICKS_TOKEN: "dapif775ef7c53fc0f2ae4b391689b1a44fa-2"
+
