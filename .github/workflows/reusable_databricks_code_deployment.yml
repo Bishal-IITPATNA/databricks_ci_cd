@@ -11,14 +11,6 @@ on:
         description: python code file path
         type: string
         required: true
-    
-  secrets:
-    DATABRICKS_HOST_URL:
-      description:   'Databricks workspace URL'
-      required: true
-    DATABRICKS_TOKEN:
-      description: 'Access token for Databricks CLI'
-      required: true
 
 jobs:
   push_to_db:
@@ -38,8 +30,8 @@ jobs:
             pip install databricks-cli 
             cat > ~/.databrickscfg << EOF 
             [DEFAULT] 
-            host = ${{ secrets.DATABRICKS_HOST_URL }} 
-            token = ${{ secrets.DATABRICKS_TOKEN }} 
+            host = adb-3129059325504714.14.azuredatabricks.net
+            token = dapif775ef7c53fc0f2ae4b391689b1a44fa-2
             jobs-api-version = 2.1 
             EOF 
     
