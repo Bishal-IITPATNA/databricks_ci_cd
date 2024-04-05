@@ -12,5 +12,5 @@ jobs:
     uses: ./.github/workflows/reusable_databricks_code_deployment.yml
     with:
       databricks_code_path: "Pipelines/prod/my_great_pipeline"
-      service_code_file: "src/code/pipeline.py"
+      service_code_file: "src/code/Demo.py"
 
