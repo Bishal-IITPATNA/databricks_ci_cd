@@ -9,4 +9,4 @@ on:
 jobs:
   deploy_code:
     name: Deploy my Great Databricks Pipeline to production
-    uses: ./.github/workflows/reusable_databricks_code_deployment.yml@v1.0.0
+    uses: ./.github/workflows/reusable_databricks_code_deployment.yml
