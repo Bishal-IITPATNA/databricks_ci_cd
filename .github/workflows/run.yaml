@@ -1,0 +1,12 @@
+name: CD for my pipeline :)
+
+on: 
+  push:
+    branches: [ main ]
+  
+  workflow_dispatch:
+
+jobs:
+  deploy_code:
+    name: Deploy my Great Databricks Pipeline to production
+    uses: .github/workflows/reusable_databricks_code_deployment.yml
