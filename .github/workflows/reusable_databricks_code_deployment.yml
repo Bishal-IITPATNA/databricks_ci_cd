@@ -31,7 +31,7 @@ jobs:
             pip install databricks-cli 
             cat > ~/.databrickscfg << EOF 
             [DEFAULT] 
-            host = adb-2994064724248266.6.azuredatabricks.net
+            host = https://adb-2994064724248266.6.azuredatabricks.net
             token = dapib120c842ee41d8b1f8a3cf72dd22aaff-2
             jobs-api-version = 2.1 
             EOF
