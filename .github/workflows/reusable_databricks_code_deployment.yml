@@ -5,12 +5,12 @@ on:
       databricks_code_path:
         description: Databricks Service Path
         type: string
-        required: true
+        required: false
       
       service_code_file:
         description: python code file path
         type: string
-        required: true
+        required: false
 
 
 jobs:
